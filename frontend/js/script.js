@@ -18,11 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	function errorMessage(text) {
-<<<<<<< HEAD
-		return `Something went wrong: ${text}`
-=======
 		return `Something went wrong ${text}`
->>>>>>> fd57e53418ee8a4412d1a6355599f627fd16240f
 	}
 
 	async function getResource(url) {
