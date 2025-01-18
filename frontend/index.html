@@ -61,7 +61,12 @@
 				<button class="show-btn">See All</button>
 			</div>
 
-			<div class="games__card__wrapper flexCenter"></div>
+			<div class="games__card__wrapper flexCenter">
+				<div class="loader"></div>
+				<div class="error hide">
+					<img src="./icons/error.gif" alt="Error" width="300">
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -99,6 +104,10 @@
 			</p>
 
 			<div class="category__cards__wrapper">
+				<div class="loader"></div>
+				<div class="error hide">
+					<img src="./icons/error.gif" alt="Error" width="300">
+				</div>
 			</div>
 		</div>
 	</section>
@@ -113,7 +122,12 @@
 				</p>
 			</div>
 
-			<div class=" projects__image"></div>
+			<div class="projects__image">
+				<div class="loader"></div>
+				<div class="error hide">
+					<img src="./icons/error.gif" alt="Error" width="300">
+				</div>
+			</div>
 
 			<button class="show-btn projects__btn">See All</button>
 		</div>
@@ -136,8 +150,8 @@
 						spam you!</p>
 				</div>
 
-				<form class="email__input">
-					<input type="text" placeholder="Enter email address">
+				<form class="email__input__wrap">
+					<input type="email" placeholder="Enter email address" id="email__input">
 					<button type="submit" class="email__btn">Countinue</button>
 				</form>
 			</div>
@@ -173,7 +187,7 @@
 		</div>
 	</footer>
 
-	<script src="./js/script.js"></script>
+	<script type="module" src="./js/script.js"></script>
 </body>
 
 </html>
