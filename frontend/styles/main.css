@@ -15,6 +15,25 @@ body {
 	background-color: #020100;
 }
 
+/* Loader */
+/* HTML: <div class="loader"></div> */
+.loader {
+	width: 50px;
+	height: 50px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background: radial-gradient(farthest-side, #ffa516 94%, #0000) top/8px 8px
+			no-repeat,
+		conic-gradient(#0000 30%, #ffa516);
+	-webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+	animation: l13 1s infinite linear;
+}
+@keyframes l13 {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
 .flexCenter {
 	display: flex;
 	align-items: center;
@@ -31,6 +50,23 @@ body {
 	display: flex;
 	align-items: start;
 	justify-content: center;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.center {
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container {
@@ -227,6 +263,7 @@ body {
 }
 
 .games__card__wrapper {
+	height: 300px;
 	gap: 47px;
 	margin-top: 57px;
 }
@@ -411,14 +448,19 @@ body {
 	color: #fff;
 }
 
-.email__input {
-	position: relative;
-}
-
-.email__input input {
-	padding: 14px 20px;
+.email__input__wrap {
+	padding: 5px 10px;
 	width: 385px;
 	height: 48px;
+	background-color: #fff;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#email__input {
+	padding: 14px 10px;
+	width: 100%;
 	outline: none;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -431,9 +473,6 @@ body {
 
 .email__btn {
 	padding: 8px 22px;
-	position: absolute;
-	top: 7px;
-	right: 6px;
 	border: none;
 	border-radius: 8px;
 	background-color: #dc7000;
@@ -442,6 +481,11 @@ body {
 	font-size: 13px;
 	line-height: 19.5px;
 	cursor: pointer;
+}
+
+.email__btn:active {
+	background-color: #fff;
+	color: #dc7000;
 }
 /* NewsLetter End */
 
