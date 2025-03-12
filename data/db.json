@@ -90,5 +90,31 @@
 			"name": "Avatar",
 			"job": "Developer"
 		}
+	],
+	"customers": [
+		{
+			"id": 1,
+			"name": "Viezh Robert",
+			"country": "Warsaw, Poland",
+			"src": "./img/services/user-1.png",
+			"star": "4.5",
+			"descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+		},
+		{
+			"id": 2,
+			"name": "Yessica Christy",
+			"country": "Shanxi, China",
+			"src": "./img/services/user-2.png",
+			"star": "4.5",
+			"descr": "Lorem Ipsum is simply dummy text of the printing and"
+		},
+		{
+			"id": 3,
+			"name": "Kim Young Jou",
+			"country": "Seoul, South Korea",
+			"src": "./img/services/user-3.png",
+			"star": "4.5",
+			"descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+		}
 	]
 }

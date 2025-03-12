@@ -25,7 +25,8 @@ body {
 	margin-bottom: 38px;
 }
 
-.bread-crumbs a, p {
+.bread-crumbs a,
+p {
 	text-decoration: none;
 	color: #fff;
 }
@@ -111,6 +112,7 @@ body {
 	background-color: #fa9021;
 	color: #fff;
 	border: 1px solid #fa8305;
+	border-radius: 5px;
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
@@ -122,11 +124,12 @@ body {
 	padding: 13px 45px;
 	background-color: #dc7000;
 	color: #fff;
-	border: none;
+	border: 1px solid #dc7000;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
 	cursor: pointer;
+	transition: 0.5s ease;
 }
 
 .rounded-btn {
@@ -145,7 +148,12 @@ body {
 .rounded-btn:hover,
 .primary-btn:hover {
 	background: none;
-	color: #fa8305;
+	color: #dc7000;
+}
+
+.second-btn:hover {
+	background: none;
+	color: #dc7000;
 }
 
 .show-btn {
@@ -459,6 +467,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border-radius: 15px;
 }
 
 .email__descr {

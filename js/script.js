@@ -155,6 +155,41 @@ window.addEventListener('DOMContentLoaded', () => {
 		})
 		.finally(() => hideLoader('.team__wrap .loader'))
 
+	// Customers
+	getResource('http://localhost:3000/customers').then(data => {
+		showLoader('.customer-cart .loader')
+		data.forEach(user => {
+			const cardEl = document.createElement('div')
+			cardEl.classList.add('customer__card')
+			cardEl.innerHTML = `
+				<div class="customer__card__detail">
+						<div class="customer__card__detail__data">
+							<img src=${user.src} alt=${user.name}>
+
+							<div>
+								<h1 class="customer__card__name">${user.name}</h1>
+								<p class="customer__card__country">${user.country}</p>
+							</div>
+						</div>
+
+						<div class="customer__card__descr">
+							<p>${user.star}</p>
+							<img src="./img/services/star.svg" alt="star">
+						</div>
+					</div>
+
+					<div>
+						<p>${user.descr}</p>
+					</div>
+			`
+			document.querySelector('.customer-cart').append(cardEl)
+		})
+	}).catch(err =>  {
+		console.log(errorMessage(err))
+		hideLoader('.customer-cart .loader')
+		showError('.customer-cart .error')
+	}).finally (() => hideLoader('.customer-cart .loader'))
+
 	// Footer Copyright
 	const getFullYear = new Date().getFullYear()
 	document.querySelector('.copyright__year').textContent = getFullYear
