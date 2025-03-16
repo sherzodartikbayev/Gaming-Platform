@@ -1,0 +1,120 @@
+{
+	"gamesCard": [
+		{
+			"src": "./img/home/card-1.png",
+			"title": "40 Followers"
+		},
+		{
+			"src": "./img/home/card-2.png",
+			"title": "40 Followers"
+		},
+		{
+			"src": "./img/home/card-3.png",
+			"title": "40 Followers"
+		},
+		{
+			"src": "./img/home/card-4.png",
+			"title": "40 Followers"
+		}
+	],
+	"categoryCard": [
+		{
+			"src": "./icons/home/1.svg",
+			"title": "Mobile Game Development"
+		},
+		{
+			"src": "./icons/home/2.svg",
+			"title": "PC Game Development"
+		},
+		{
+			"src": "./icons/home/3.svg",
+			"title": "PS4 Game Development"
+		},
+		{
+			"src": "./icons/home/4.svg",
+			"title": "AR/VR Solutions"
+		},
+		{
+			"src": "./icons/home/5.svg",
+			"title": "AR/ VR design"
+		},
+		{
+			"src": "./icons/home/6.svg",
+			"title": "3D Modelings"
+		}
+	],
+	"projectsCard": [
+		{
+			"src": "./img/home/project-1.png",
+			"alt": "Project 1"
+		},
+		{
+			"src": "./img/home/project-2.png",
+			"alt": "Project 2"
+		},
+		{
+			"src": "./img/home/project-3.png",
+			"alt": "Project 3"
+		},
+		{
+			"src": "./img/home/project-4.png",
+			"alt": "Project 4"
+		},
+		{
+			"src": "./img/home/project-5.png",
+			"alt": "Project 5"
+		},
+		{
+			"src": "./img/home/project-6.png",
+			"alt": "Project 6"
+		}
+	],
+	"team": [
+		{
+			"src": "./img/about/bill.png",
+			"name": "Bill",
+			"job": "Founder"
+		},
+		{
+			"src": "./img/about/beverly.png",
+			"name": "Beverly",
+			"job": "COO"
+		},
+		{
+			"src": "./img/about/claudia.png",
+			"name": "Claudia",
+			"job": "Director"
+		},
+		{
+			"src": "./img/about/avatar.png",
+			"name": "Avatar",
+			"job": "Developer"
+		}
+	],
+	"customers": [
+		{
+			"id": 1,
+			"name": "Viezh Robert",
+			"country": "Warsaw, Poland",
+			"src": "./img/services/user-1.png",
+			"star": "4.5",
+			"descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+		},
+		{
+			"id": 2,
+			"name": "Yessica Christy",
+			"country": "Shanxi, China",
+			"src": "./img/services/user-2.png",
+			"star": "4.5",
+			"descr": "Lorem Ipsum is simply dummy text of the printing and"
+		},
+		{
+			"id": 3,
+			"name": "Kim Young Jou",
+			"country": "Seoul, South Korea",
+			"src": "./img/services/user-3.png",
+			"star": "4.5",
+			"descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+		}
+	]
+}

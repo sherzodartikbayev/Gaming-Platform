@@ -1,0 +1,141 @@
+/* Hero Section Styles */
+.hero__right {
+	max-width: 425px;
+}
+
+.section-title {
+	margin-bottom: 25px;
+}
+
+.hero .description {
+	margin-bottom: 57px;
+}
+
+.rounded-btn img {
+	margin-left: 18px;
+}
+
+/* Work */
+.work {
+	padding: 100px 100px 100px;
+	background-color: #0d0701;
+}
+
+.work-title {
+	margin-bottom: 60px;
+}
+
+.cart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 43px;
+}
+
+.card {
+	padding: 0 37px;
+	width: 378px;
+	height: 348px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+	background-color: #1c140f;
+	border-radius: 20px;
+}
+
+.card__label {
+	width: 140px;
+	height: 40px;
+	background-color: #b000dc1c;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 19px;
+}
+
+.card__title {
+	color: #fff;
+	margin-bottom: 16px;
+}
+
+.card__descr {
+	font-size: 14px;
+}
+
+/* Dummy */
+.dummy {
+	background-color: #1c140f;
+	margin-bottom: 0;
+}
+
+.dummy__container {
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 96px;
+}
+
+.dummy__left__img {
+	width: 490px;
+	height: 490px;
+	object-fit: contain;
+}
+
+.dummy__right {
+	max-width: 531px;
+}
+
+.dummy__right__p {
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 14px;
+}
+
+.dummy__right__title {
+	font-weight: 600;
+	font-size: 28px;
+	color: #fff;
+	margin-bottom: 14px;
+}
+
+.dummy__right__descr {
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+
+/* Team */
+.team {
+	background-color: #120a02;
+	padding: 100px 100px;
+}
+
+.team__wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.team__card {
+	width: 295px;
+	height: 253px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #1c140f;
+	border-radius: 20px;
+}
+
+.team__name {
+	font-weight: 600;
+	font-size: 19px;
+	color: #fff;
+}

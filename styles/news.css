@@ -1,0 +1,146 @@
+/* News */
+.news {
+	padding: 100px 100px;
+}
+
+.news__container {
+	width: 100%;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.news__container .bread-crumbs {
+	font-size: 400px;
+	font-size: 16px;
+	line-height: 209%;
+	margin-bottom: 15px;
+}
+
+.news__container .section-title {
+	font-weight: 600;
+	font-size: 33px;
+	line-height: 180%;
+}
+
+.news__container .description {
+	margin-bottom: 74px;
+}
+
+.news__input__wrap {
+	position: relative;
+}
+
+.news__input__wrap img {
+	position: absolute;
+	top: 18px;
+	left: 25px;
+}
+
+.news__input {
+	padding: 18px 25px;
+	padding-left: 55px;
+	width: 400px;
+	height: 49px;
+	border: none;
+	border-radius: 10px;
+	background-color: #1c140f;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 16px;
+	outline: none;
+}
+
+/* News Data */
+.news__data {
+	padding: 0 100px;
+}
+
+.news__data__container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	gap: 72px;
+}
+
+.news__left__card {
+	width: 580px;
+	height: auto;
+	padding-bottom: 30px;
+	margin-bottom: 90px;
+}
+
+.news__left__card:nth-child(1) {
+	border-bottom: 1px solid #a5a5a5;
+}
+
+.news__left__card__img {
+	margin-bottom: 20px;
+}
+
+.news__card__btns {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+.news__btn {
+	padding: 10px 26px;
+	border: 1px solid #2351f5;
+	background-color: #2351f5;
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+.news__btn:hover {
+	background: none;
+	color: #2351f5;
+}
+
+.news__left__card__title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 100%;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.news__left__card__descr {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 208%;
+	margin-bottom: 44px;
+}
+
+.news__right__card {
+	width: 618px;
+	height: 163px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 31px;
+	margin-bottom: 60px;
+}
+
+.news__right__card:first-child {
+	margin-top: 15px;
+}
+
+.news__right__card:last-child {
+	margin-bottom: 0;
+}
+
+.news__right__card__title {
+	font-weight: 600;
+	font-size: 23px;
+	line-height: 30px;
+	color: #fff;
+}

@@ -1,0 +1,156 @@
+/* Contact */
+.contact {
+	padding: 150px 100px;
+}
+
+.contact__container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contact__container .bread-crumbs {
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.contact__container .description {
+	margin-bottom: 93px;
+}
+
+.contact__cart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 62px;
+}
+
+.contact__card {
+	width: 396px;
+	height: 102px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+
+.contact__card:nth-child(1) {
+	flex-direction: column;
+}
+
+.contact__card:nth-child(2) {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+.contact__card__text {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+}
+
+.social__media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.social__card {
+	width: 34px;
+	height: 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	background-color: #1c140f;
+}
+
+/* Contact NewLetter */
+.contact__newsletter {
+	padding: 100px 100px;
+	background-color: #1c140f;
+}
+
+.contact__newsletter__container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.contact__title {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 183%;
+	color: #fff;
+}
+
+.contact__descr {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 189%;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.contact__form__group {
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+}
+
+.contact__form__name {
+	display: flex;
+	gap: 27px;
+	margin-bottom: 20px;
+}
+
+.contact__form__group label {
+	font-size: 500px;
+	font-size: 14px;
+	color: #4f4f4f;
+	margin-bottom: 6px;
+}
+
+.contact__form__group input {
+	width: 100%;
+	height: 56px;
+	border: 0.6px solid #ffffff;
+	border-radius: 9px;
+	background-color: #ffffff12;
+	outline: none;
+	padding: 15px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.contact__form__group #email {
+	margin-bottom: 20px;
+}
+
+.contact__form__group #textarea {
+	width: 100%;
+	height: 232px;
+	border: 0.6px solid #ffffff;
+	border-radius: 9px;
+	background-color: #ffffff12;
+	outline: none;
+	padding: 15px;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.contact__form__btn {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
