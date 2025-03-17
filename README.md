@@ -28,7 +28,7 @@ cd gaming-platform
 ```
 
 # 📸 Screenshots
-![Screenshot 2025-03-17 at 20-11-03 Gaming Platform](https://github.com/user-attachments/assets/61afa1a5-71b8-4007-b125-0a73a8b5ae9e)
+![Screenshot 2025-03-17 at 20-12-55 Gaming Platform](https://github.com/user-attachments/assets/cd16fa99-3bf5-4377-a31b-40f8987a5cee)
 
 # 📬 Contact
 If you have any questions or suggestions, feel free to reach out:
