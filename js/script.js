@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// Games Card
-	getResource('http://localhost:3000/gamesCard')
+	getResource('https://gaming-platform-me9t.onrender.com/gamesCard')
 		.then(data => {
 			showLoader('.games__card__wrapper .loader')
 			data.forEach(card => {
@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		.finally(() => hideLoader('.games__card__wrapper .loader'))
 
 	// Category Card
-	getResource('http://localhost:3000/categoryCard')
+	getResource('https://gaming-platform-me9t.onrender.com/categoryCard')
 		.then(data => {
 			showLoader('.category__cards__wrapper .loader')
 			data.forEach(card => {
@@ -82,7 +82,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		.finally(() => hideLoader('.category__cards__wrapper .loader'))
 
 	// Projects Card
-	getResource('http://localhost:3000/projectsCard')
+	getResource('https://gaming-platform-me9t.onrender.com/projectsCard')
 		.then(data => {
 			showLoader('.projects__image .loader'),
 				data.forEach(item => {
@@ -134,7 +134,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// projectsCard
-	getResource('http://localhost:3000/team')
+	getResource('https://gaming-platform-me9t.onrender.com/team')
 		.then(data => {
 			showLoader('.team__wrap .loader')
 			data.forEach(card => {
@@ -156,12 +156,13 @@ window.addEventListener('DOMContentLoaded', () => {
 		.finally(() => hideLoader('.team__wrap .loader'))
 
 	// Customers
-	getResource('http://localhost:3000/customers').then(data => {
-		showLoader('.customer-cart .loader')
-		data.forEach(user => {
-			const cardEl = document.createElement('div')
-			cardEl.classList.add('customer__card')
-			cardEl.innerHTML = `
+	getResource('https://gaming-platform-me9t.onrender.com/customers')
+		.then(data => {
+			showLoader('.customer-cart .loader')
+			data.forEach(user => {
+				const cardEl = document.createElement('div')
+				cardEl.classList.add('customer__card')
+				cardEl.innerHTML = `
 				<div class="customer__card__detail">
 						<div class="customer__card__detail__data">
 							<img src=${user.src} alt=${user.name}>
@@ -182,13 +183,15 @@ window.addEventListener('DOMContentLoaded', () => {
 						<p>${user.descr}</p>
 					</div>
 			`
-			document.querySelector('.customer-cart').append(cardEl)
+				document.querySelector('.customer-cart').append(cardEl)
+			})
 		})
-	}).catch(err =>  {
-		console.log(errorMessage(err))
-		hideLoader('.customer-cart .loader')
-		showError('.customer-cart .error')
-	}).finally (() => hideLoader('.customer-cart .loader'))
+		.catch(err => {
+			console.log(errorMessage(err))
+			hideLoader('.customer-cart .loader')
+			showError('.customer-cart .error')
+		})
+		.finally(() => hideLoader('.customer-cart .loader'))
 
 	// Footer Copyright
 	const getFullYear = new Date().getFullYear()
